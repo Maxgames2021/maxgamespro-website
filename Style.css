@@ -1,0 +1,103 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	position:relative;
+}
+
+.logo-container{
+	width:auto;
+	height:auto;
+	text-align:center;
+	
+}
+.banner{
+	text-align:center;
+	width:100%;
+	height:100%;
+	
+}
+.btn {
+	width:300px;
+	height:40px;
+	background-color:darkmagenta;
+	position:relative;
+	border-radius:50px;
+	text-align:center;
+	margin: 20px auto 5px;
+	
+}
+.btn a{
+	font-size:20px;
+	text-decoration:none;
+	display:block;
+	padding:10px;
+	color:white;
+	font-family:serif;
+}
+h3{
+	text-align:center;
+	color:#676767;
+	font-size:15px;
+	padding:10px;
+}
+.whatsapp-icon a{
+	width:220px;
+	height:auto;
+    display:flex;
+	border-radius:40px;
+	background-color:#25D366;
+    
+	
+}
+.whatsapp-button span{
+	font-size:17px;
+	color:white;
+	font-family:serif;
+	text-decoration:none;
+	margin-top:20px;
+	cursor:pointer;
+	float:right;	
+}
+
+.Footer{
+	width:auto;
+	height:150px;
+	margin: 10px 0 0;
+	background-image:linear-gradient(to right,rgba(0,194,233,1)0%,rgba(202,119,180,1)100%);
+}
+.Footer h3{
+	color:white;
+	font-size:25px;
+	padding-top:60px;
+}
+.Footer h6{
+	color:white;
+	font-size:15px;
+	text-align:center;
+}
+
+
+@media only screen and (max-width: 940px) {
+body{
+		width: fit-content;
+	}
+
+* {
+		width: inherit;
+		margin: 0px;
+		padding: 0px;
+		
+	}
+.whatsapp-icon a{
+	width:auto;
+	height:60px;
+	padding:10px;
+}
+
+img.logo {
+		width: 25%;
+	}
+	
+  }	
